@@ -1,0 +1,48 @@
+{
+  "name": "@whcode/fe-filter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "前端仓库-公用过滤器工具库",
+  "main": "lib/index.js",
+  "browser": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "unpkg": "lib/index.js",
+  "author": "13971332694@163.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcode-fe/filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whcode-fe/filter/issues"
+  },
+  "homepage": "https://github.com/whcode-fe/filter#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ci": "pnpm install --frozen-lockfile"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "filter",
+    "tools"
+  ],
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "rollup": "3.7.5",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^1.7.1"
+  },
+  "dependencies": {
+    "@whcode/fe-calc": "^1.0.2",
+    "@whcode/fe-utils": "^1.0.0"
+  }
+}
