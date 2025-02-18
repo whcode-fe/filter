@@ -1,6 +1,6 @@
-# @whcode/filter
+# @whcode/fe-filter
 
-@whcode/filter，长期维护版本，欢迎大家踊跃提交贡献代码；
+@whcode/fe-filter，长期维护版本，欢迎大家踊跃提交贡献代码；
 
 使用说明和常见问题，可参阅下面的说明，如还有疑问，可提 [issues](https://github.com/whcode-fe/filter/issues) 寻求帮助！
 
